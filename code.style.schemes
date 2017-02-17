@@ -1,0 +1,20 @@
+<application>
+  <component name="CodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value>
+        <JSCodeStyleSettings>
+          <option name="USE_DOUBLE_QUOTES" value="false" />
+        </JSCodeStyleSettings>
+        <codeStyleSettings language="JavaScript">
+          <option name="RIGHT_MARGIN" value="100" />
+          <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+          <option name="DOWHILE_BRACE_FORCE" value="3" />
+          <indentOptions>
+            <option name="INDENT_SIZE" value="2" />
+          </indentOptions>
+        </codeStyleSettings>
+      </value>
+    </option>
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Airbnb" />
+  </component>
+</application>

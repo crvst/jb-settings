@@ -1,0 +1,20 @@
+<templateSet group="Zen CSS">
+  <template name="//" value="//&#10;// $VAR0$&#10;// --------------------------------------------------" description="Divider line" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="/" value="// $VAR0$&#10;// -------------------------" description="Short divider line" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="con" value="content: '$VAR0$';" description="Empty content" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
