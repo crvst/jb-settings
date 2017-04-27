@@ -4,7 +4,7 @@
     <property name="created">2017-01-18T22:41:33</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2017-04-26T00:10:34</property>
+    <property name="modified">2017-04-27T21:17:09</property>
     <property name="originalScheme">Solarized Light Nova</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -214,12 +214,6 @@
         <option name="BACKGROUND" value="d33682" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.BLOCK_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.BOOLEAN">
       <value>
         <option name="FOREGROUND" value="268bd2" />
@@ -258,24 +252,6 @@
     <option name="COFFEESCRIPT.FUNCTION_NAME">
       <value>
         <option name="FOREGROUND" value="268bd2" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.HEREDOC_CONTENT">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.HEREDOC_ID">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.HEREGEX_CONTENT">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="COFFEESCRIPT.HEREGEX_ID">
@@ -351,7 +327,6 @@
     <option name="COFFEESCRIPT.STRING_LITERAL">
       <value>
         <option name="FOREGROUND" value="2aa198" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONDITIONALLY_NOT_COMPILED">
@@ -459,11 +434,6 @@
         <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
-    <option name="CSS.COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
     <option name="CSS.FUNCTION">
       <value>
         <option name="FOREGROUND" value="b58900" />
@@ -548,17 +518,8 @@
         <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
-    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
+    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_BLOCK_COMMENT" />
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cb4b16" />
@@ -705,7 +666,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="30952d" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -715,7 +676,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="30952d" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -733,7 +694,17 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="2f32dc" />
+      </value>
+    </option>
+    <option name="DEFAULT_GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="859900" />
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -750,18 +721,18 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="b58900" />
+        <option name="FOREGROUND" value="74d9" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
       <value>
-        <option name="EFFECT_COLOR" value="808080" />
+        <option name="FOREGROUND" value="0" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="30952d" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -782,6 +753,7 @@
         <option name="FOREGROUND" value="d33682" />
       </value>
     </option>
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="2aa198" />
@@ -1121,11 +1093,6 @@
         <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
-    <option name="HTML_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="839496" />
@@ -1139,7 +1106,6 @@
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="268bd2" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -1372,17 +1338,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.BADCHARACTER">
-      <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="JS.BLOCK_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
     <option name="JS.BRACES">
       <value>
         <option name="FOREGROUND" value="268bd2" />
@@ -1391,11 +1346,6 @@
     <option name="JS.BRACKETS">
       <value>
         <option name="FOREGROUND" value="268bd2" />
-      </value>
-    </option>
-    <option name="JS.DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
       </value>
     </option>
     <option name="JS.DOC_MARKUP">
@@ -1408,11 +1358,7 @@
         <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
-    <option name="JS.GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FOREGROUND" value="b58900" />
@@ -1421,23 +1367,6 @@
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
         <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="JS.INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="dc322f" />
-        <option name="EFFECT_COLOR" value="dc322f" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="JS.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-      </value>
-    </option>
-    <option name="JS.LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
@@ -15123,13 +15052,12 @@
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b58900" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="3f4d54" />
-        <option name="BACKGROUND" value="fdf6e3" />
+        <option name="FOREGROUND" value="1f272b" />
+        <option name="BACKGROUND" value="fdf7e7" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
