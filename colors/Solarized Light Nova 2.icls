@@ -4,16 +4,27 @@
     <property name="created">2017-01-18T22:41:33</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2017-04-28T16:01:37</property>
+    <property name="modified">2017-04-28T21:20:01</property>
     <property name="originalScheme">Solarized Light Nova</property>
-    <property name="rainbow Default language">true</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.4" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="LINE_SPACING" value="1.5" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="SF Mono" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </font>
   <option name="EDITOR_LIGATURES" value="true" />
-  <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="SF Mono" />
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="SF Mono" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </console-font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </console-font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="e7f3d5" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
@@ -106,26 +117,7 @@
         <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
-    <option name="BASH.INTERNAL_COMMAND">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-      </value>
-    </option>
-    <option name="BASH.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-      </value>
-    </option>
-    <option name="BASH.LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
-    <option name="BASH.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="cb4b16" />
-      </value>
-    </option>
+    <option name="BASH.INTERNAL_COMMAND" baseAttributes="BASH.EXTERNAL_COMMAND" />
     <option name="BASH.PAREN">
       <value>
         <option name="FOREGROUND" value="859900" />
@@ -415,7 +407,6 @@
     <option name="CONSOLE_USER_INPUT">
       <value>
         <option name="FOREGROUND" value="859900" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
@@ -441,11 +432,6 @@
         <option name="FOREGROUND" value="dc322f" />
       </value>
     </option>
-    <option name="CSS.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
     <option name="CSS.PROPERTY_NAME">
       <value />
     </option>
@@ -457,12 +443,6 @@
     <option name="CSS.STRING">
       <value>
         <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
-    <option name="CSS.TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -638,14 +618,25 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="DEFAULT_ATTRIBUTE">
-      <value>
-        <option name="FOREGROUND" value="74d9" />
-      </value>
-    </option>
+    <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="30952d" />
+        <option name="FOREGROUND" value="859900" />
+      </value>
+    </option>
+    <option name="DEFAULT_BRACES">
+      <value>
+        <option name="FOREGROUND" value="2aa198" />
+      </value>
+    </option>
+    <option name="DEFAULT_BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="2aa198" />
+      </value>
+    </option>
+    <option name="DEFAULT_COMMA">
+      <value>
+        <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -671,24 +662,23 @@
     <option name="DEFAULT_DOC_MARKUP">
       <value />
     </option>
-    <option name="DEFAULT_ENTITY">
+    <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="2f32dc" />
+        <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
+    <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" value="dc322f" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
-      <value />
-    </option>
-    <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="6c71c4" />
+        <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="dc322f" />
@@ -697,7 +687,9 @@
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
     </option>
     <option name="DEFAULT_LABEL">
       <value>
@@ -707,7 +699,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="30952d" />
+        <option name="FOREGROUND" value="859900" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -720,27 +712,32 @@
         <option name="FOREGROUND" value="cb4b16" />
       </value>
     </option>
-    <option name="DEFAULT_PREDEFINED_SYMBOL">
-      <value />
-    </option>
-    <option name="DEFAULT_STATIC_FIELD">
-      <value>
-        <option name="FOREGROUND" value="d33682" />
-      </value>
-    </option>
-    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="DEFAULT_STRING">
+    <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
-    <option name="DEFAULT_TAG">
+    <option name="DEFAULT_PARENTHS">
+      <value>
+        <option name="FOREGROUND" value="2aa198" />
+      </value>
+    </option>
+    <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value />
     </option>
-    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+    <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="BACKGROUND" value="eee8d5" />
+        <option name="FOREGROUND" value="2aa198" />
       </value>
+    </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="DEFAULT_STRING">
+      <value />
+    </option>
+    <option name="DEFAULT_TAG" baseAttributes="TEXT" />
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+      <value />
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
@@ -1058,21 +1055,6 @@
         <option name="FOREGROUND" value="83ba0d" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
-    <option name="HTML_TAG">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
-    <option name="HTML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-      </value>
-    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="268bd2" />
@@ -1086,18 +1068,12 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IGNORE.HEADER">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="ecfaeb" />
-      </value>
-    </option>
-    <option name="IGNORE.SYNTAX">
-      <value>
-        <option name="FOREGROUND" value="acacac" />
-        <option name="BACKGROUND" value="4a4a4a" />
-      </value>
-    </option>
+    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value />
     </option>
@@ -1303,16 +1279,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.BRACES">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-      </value>
-    </option>
-    <option name="JS.BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-      </value>
-    </option>
     <option name="JS.DOC_MARKUP">
       <value>
         <option name="BACKGROUND" value="eee8d5" />
@@ -1321,32 +1287,12 @@
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-    <option name="JS.INSTANCE_MEMBER_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="JS.LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="JS.PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JS.SEMICOLON">
       <value>
         <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="JS.STATIC_MEMBER_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
@@ -1503,11 +1449,6 @@
     <option name="LESS_JS_CODE_DELIM">
       <value>
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="LESS_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
       </value>
     </option>
     <option name="LOCALE.LINE_COMMENT">
@@ -15180,33 +15121,8 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
-    <option name="XML_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
-    <option name="XML_ENTITY_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="d33682" />
-      </value>
-    </option>
     <option name="XML_PROLOGUE">
       <value />
-    </option>
-    <option name="XML_TAG">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
-    <option name="XML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-      </value>
     </option>
     <option name="XPATH.FUNCTION">
       <value>
