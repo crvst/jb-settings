@@ -4,7 +4,7 @@
     <property name="created">2017-04-28T22:42:04</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-04-29T00:55:56</property>
+    <property name="modified">2017-04-29T01:06:14</property>
     <property name="originalScheme">Null Theme copy</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
@@ -33,6 +33,7 @@
     <option name="CARET_COLOR" value="dc322f" />
     <option name="CARET_ROW_COLOR" value="eeeeee" />
     <option name="CONSOLE_BACKGROUND_KEY" value="fdf6e3" />
+    <option name="DELETED_LINES_COLOR" value="e7e9ea" />
     <option name="GUTTER_BACKGROUND" value="f7f7f7" />
     <option name="INDENT_GUIDE" value="eee8d5" />
     <option name="LINE_NUMBERS_COLOR" value="d8d8da" />
@@ -109,12 +110,9 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="BASH.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="BASH.HERE_DOC_END">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
+    <option name="BASH.HERE_DOC" baseAttributes="DEFAULT_STRING" />
     <option name="BASH.HERE_DOC_START">
       <value>
         <option name="FOREGROUND" value="2aa198" />
@@ -131,11 +129,6 @@
         <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
-    <option name="BASH.STRING">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
     <option name="BASH.STRING2">
       <value>
         <option name="FOREGROUND" value="2aa198" />
@@ -149,21 +142,6 @@
     <option name="BASH.VAR_DEF">
       <value>
         <option name="FOREGROUND" value="2688d1" />
-      </value>
-    </option>
-    <option name="BASH.VAR_USE">
-      <value>
-        <option name="FOREGROUND" value="cb4b16" />
-      </value>
-    </option>
-    <option name="BASH.VAR_USE_BUILTIN">
-      <value>
-        <option name="FOREGROUND" value="cb4b16" />
-      </value>
-    </option>
-    <option name="BASH.VAR_USE_COMPOSED">
-      <value>
-        <option name="FOREGROUND" value="cb4b16" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
