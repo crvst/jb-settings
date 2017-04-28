@@ -4,8 +4,9 @@
     <property name="created">2017-01-18T22:41:33</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2017-04-27T21:17:09</property>
+    <property name="modified">2017-04-28T16:01:37</property>
     <property name="originalScheme">Solarized Light Nova</property>
+    <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
   <option name="EDITOR_FONT_SIZE" value="14" />
@@ -94,6 +95,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="BASH.HERE_DOC_END">
       <value>
         <option name="FOREGROUND" value="2aa198" />
@@ -434,25 +436,9 @@
         <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
-    <option name="CSS.FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="CSS.IDENT">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-      </value>
-    </option>
     <option name="CSS.IMPORTANT">
       <value>
         <option name="FOREGROUND" value="dc322f" />
-      </value>
-    </option>
-    <option name="CSS.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.NUMBER">
@@ -461,9 +447,7 @@
       </value>
     </option>
     <option name="CSS.PROPERTY_NAME">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-      </value>
+      <value />
     </option>
     <option name="CSS.PROPERTY_VALUE">
       <value>
@@ -479,11 +463,6 @@
       <value>
         <option name="FOREGROUND" value="859900" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="CSS.URL">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -703,9 +682,7 @@
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
@@ -720,9 +697,7 @@
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="74d9" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_LABEL">
       <value>
@@ -1083,19 +1058,9 @@
         <option name="FOREGROUND" value="83ba0d" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="839496" />
-      </value>
-    </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
-    <option name="HTML_ENTITY_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="839496" />
       </value>
     </option>
     <option name="HTML_TAG">
@@ -1353,17 +1318,9 @@
         <option name="BACKGROUND" value="eee8d5" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="JS.INSTANCE_MEMBER_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
         <option name="FOREGROUND" value="b58900" />
@@ -1380,11 +1337,7 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.REGEXP">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JS.SEMICOLON">
       <value>
         <option name="FOREGROUND" value="b58900" />
@@ -1394,11 +1347,6 @@
       <value>
         <option name="FOREGROUND" value="268bd2" />
         <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
-    <option name="JS.STRING">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
@@ -15258,7 +15206,6 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="268bd2" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="XPATH.FUNCTION">
