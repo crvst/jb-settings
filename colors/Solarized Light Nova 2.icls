@@ -4,7 +4,7 @@
     <property name="created">2017-01-18T22:41:33</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2017-04-28T21:51:48</property>
+    <property name="modified">2017-04-28T22:29:02</property>
     <property name="originalScheme">Solarized Light Nova</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -38,6 +38,7 @@
     <option name="METHOD_SEPARATORS_COLOR" value="eee8d5" />
     <option name="MODIFIED_LINES_COLOR" value="e7e9ea" />
     <option name="NOTIFICATION_BACKGROUND" value="fdf6e3" />
+    <option name="READONLY_BACKGROUND" value="ececec" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="eee8d5" />
     <option name="SELECTED_INDENT_GUIDE" value="93a1a1" />
@@ -437,7 +438,7 @@
       <value>
         <option name="FOREGROUND" value="268bd2" />
         <option name="EFFECT_COLOR" value="b5d2dd" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -609,7 +610,7 @@
     <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" value="30952d" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -678,7 +679,7 @@
     <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" value="30952d" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -692,7 +693,9 @@
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="93a1a1" />
+      </value>
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
