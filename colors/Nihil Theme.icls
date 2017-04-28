@@ -4,8 +4,9 @@
     <property name="created">2017-04-28T22:42:04</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-04-28T23:23:20</property>
+    <property name="modified">2017-04-28T23:51:14</property>
     <property name="originalScheme">Null Theme copy</property>
+    <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
   <font>
@@ -32,21 +33,21 @@
     <option name="CARET_COLOR" value="dc322f" />
     <option name="CARET_ROW_COLOR" value="eeeeee" />
     <option name="CONSOLE_BACKGROUND_KEY" value="fdf6e3" />
-    <option name="GUTTER_BACKGROUND" value="ffffff" />
+    <option name="GUTTER_BACKGROUND" value="f7f7f7" />
     <option name="INDENT_GUIDE" value="eee8d5" />
-    <option name="LINE_NUMBERS_COLOR" value="93a1a1" />
+    <option name="LINE_NUMBERS_COLOR" value="d8d8da" />
     <option name="METHOD_SEPARATORS_COLOR" value="eee8d5" />
     <option name="MODIFIED_LINES_COLOR" value="e7e9ea" />
     <option name="NOTIFICATION_BACKGROUND" value="fdf6e3" />
     <option name="READONLY_BACKGROUND" value="ececec" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
-    <option name="RIGHT_MARGIN_COLOR" value="eee8d5" />
+    <option name="RIGHT_MARGIN_COLOR" value="eaeaea" />
     <option name="SELECTED_INDENT_GUIDE" value="93a1a1" />
     <option name="SELECTED_TEARLINE_COLOR" value="" />
-    <option name="SELECTION_BACKGROUND" value="839496" />
-    <option name="SELECTION_FOREGROUND" value="fdf6e3" />
+    <option name="SELECTION_BACKGROUND" value="d8d8da" />
+    <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="93a1a1" />
-    <option name="WHITESPACES" value="93a1a1" />
+    <option name="WHITESPACES" value="ffffff" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="f8edd6" />
   </colors>
   <attributes>
@@ -697,7 +698,12 @@
         <option name="BACKGROUND" value="f7f7f7" />
       </value>
     </option>
-    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+      <value>
+        <option name="FOREGROUND" value="38474b" />
+        <option name="BACKGROUND" value="f7f7f7" />
+      </value>
+    </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value />
     </option>
@@ -13778,8 +13784,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fdf6e3" />
-        <option name="BACKGROUND" value="859900" />
+        <option name="BACKGROUND" value="fff093" />
       </value>
     </option>
     <option name="Map key">
@@ -14917,7 +14922,8 @@
     </option>
     <option name="TYPO">
       <value>
-        <option name="EFFECT_COLOR" value="d5d797" />
+        <option name="EFFECT_COLOR" value="ecee9f" />
+        <option name="ERROR_STRIPE_COLOR" value="ecee9f" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
