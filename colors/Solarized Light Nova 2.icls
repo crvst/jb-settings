@@ -4,7 +4,7 @@
     <property name="created">2017-01-18T22:41:33</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2017-04-28T21:20:01</property>
+    <property name="modified">2017-04-28T21:51:48</property>
     <property name="originalScheme">Solarized Light Nova</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -30,7 +30,7 @@
     <option name="ANNOTATIONS_COLOR" value="586e75" />
     <option name="ANNOTATIONS_MERGED_COLOR" value="586e75" />
     <option name="CARET_COLOR" value="dc322f" />
-    <option name="CARET_ROW_COLOR" value="eee8d5" />
+    <option name="CARET_ROW_COLOR" value="eeeeee" />
     <option name="CONSOLE_BACKGROUND_KEY" value="fdf6e3" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
     <option name="INDENT_GUIDE" value="eee8d5" />
@@ -96,6 +96,7 @@
     </option>
     <option name="BAD_CHARACTER">
       <value>
+        <option name="FOREGROUND" value="dc322f" />
         <option name="EFFECT_COLOR" value="dc322f" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -432,19 +433,6 @@
         <option name="FOREGROUND" value="dc322f" />
       </value>
     </option>
-    <option name="CSS.PROPERTY_NAME">
-      <value />
-    </option>
-    <option name="CSS.PROPERTY_VALUE">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
-    <option name="CSS.STRING">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="268bd2" />
@@ -626,17 +614,17 @@
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -655,16 +643,14 @@
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
-      <value>
-        <option name="FOREGROUND" value="3d3d3d" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value />
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -675,7 +661,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="b58900" />
+        <option name="FOREGROUND" value="268bd2" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -687,16 +673,9 @@
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-      </value>
+      <value />
     </option>
-    <option name="DEFAULT_LABEL">
-      <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="859900" />
@@ -713,21 +692,17 @@
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
-    <option name="DEFAULT_PREDEFINED_SYMBOL">
-      <value />
-    </option>
+    <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -736,19 +711,15 @@
       <value />
     </option>
     <option name="DEFAULT_TAG" baseAttributes="TEXT" />
-    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
-      <value />
-    </option>
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="dc322f" />
-      </value>
+      <value />
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="839496" />
-        <option name="BACKGROUND" value="eee8d5" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="839496" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -891,7 +862,6 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="93a1a1" />
-        <option name="BACKGROUND" value="eee8d5" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1086,7 +1056,7 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
-        <option name="BACKGROUND" value="eee8d5" />
+        <option name="BACKGROUND" value="e7e7e7" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -1279,27 +1249,12 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.DOC_MARKUP">
-      <value>
-        <option name="BACKGROUND" value="eee8d5" />
-      </value>
-    </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
-    <option name="JS.SEMICOLON">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="JS.VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="dc322f" />
-      </value>
-    </option>
     <option name="JSP_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="839496" />
@@ -14945,8 +14900,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="1f272b" />
-        <option name="BACKGROUND" value="fdf7e7" />
+        <option name="FOREGROUND" value="38474b" />
+        <option name="BACKGROUND" value="f7f7f7" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
