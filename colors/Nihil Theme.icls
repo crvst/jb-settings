@@ -4,7 +4,7 @@
     <property name="created">2017-04-28T22:42:04</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-04-29T10:53:41</property>
+    <property name="modified">2017-04-29T16:24:04</property>
     <property name="originalScheme">Null Theme copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -13725,7 +13725,6 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="1f282a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
