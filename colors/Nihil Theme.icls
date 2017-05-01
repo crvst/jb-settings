@@ -4,7 +4,7 @@
     <property name="created">2017-04-28T22:42:04</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-05-01T23:06:49</property>
+    <property name="modified">2017-05-01T23:18:49</property>
     <property name="originalScheme">Null Theme copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -539,7 +539,7 @@
     <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="d46b15" />
+        <option name="FOREGROUND" value="bb6bd9" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -560,7 +560,7 @@
     <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="d6782b" />
+        <option name="FOREGROUND" value="bb6bd9" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -611,7 +611,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="d46b15" />
+        <option name="FOREGROUND" value="bb6bd9" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -622,7 +622,7 @@
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="bb6bd9" />
+        <option name="FOREGROUND" value="f2994a" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -14812,8 +14812,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="1217" />
-        <option name="BACKGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="2129" />
+        <option name="BACKGROUND" value="f7f7f7" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
