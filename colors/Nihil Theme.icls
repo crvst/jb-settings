@@ -4,7 +4,7 @@
     <property name="created">2017-04-28T22:42:04</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-04-30T21:37:15</property>
+    <property name="modified">2017-05-01T21:50:51</property>
     <property name="originalScheme">Null Theme copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -409,6 +409,9 @@
         <option name="FOREGROUND" value="859900" />
       </value>
     </option>
+    <option name="C_DYNAMIC" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="C_FN_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="C_LET_BINDING" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="Clojure Atom">
       <value>
         <option name="FOREGROUND" value="2688cf" />
