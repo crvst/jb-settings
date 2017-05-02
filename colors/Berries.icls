@@ -1,11 +1,11 @@
-<scheme name="Nihil Theme" version="142" parent_scheme="Default">
+<scheme name="Berries" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2017-04-28T22:42:04</property>
+    <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-05-01T23:45:33</property>
-    <property name="originalScheme">Null Theme copy</property>
+    <property name="modified">2017-05-02T23:25:29</property>
+    <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
   <font>
