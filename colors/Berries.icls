@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-05-03T23:54:59</property>
+    <property name="modified">2017-05-04T00:08:03</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -41,7 +41,7 @@
     <option name="MODIFIED_LINES_COLOR" value="e7e9ea" />
     <option name="NOTIFICATION_BACKGROUND" value="fdf6e3" />
     <option name="READONLY_BACKGROUND" value="ececec" />
-    <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="ececec" />
     <option name="RIGHT_MARGIN_COLOR" value="eaeaea" />
     <option name="SELECTED_INDENT_GUIDE" value="93a1a1" />
     <option name="SELECTED_TEARLINE_COLOR" value="" />
@@ -13755,6 +13755,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="1a1a1a" />
         <option name="BACKGROUND" value="fff8e7" />
       </value>
     </option>
