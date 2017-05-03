@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-05-04T00:29:19</property>
+    <property name="modified">2017-05-04T00:53:59</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -16,15 +16,6 @@
     <option name="EDITOR_FONT_NAME" value="Menlo" />
     <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
-  <option name="EDITOR_LIGATURES" value="true" />
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="SF Mono" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
-  </console-font>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
-  </console-font>
   <option name="CONSOLE_LINE_SPACING" value="1.5" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="e7f3d5" />
@@ -655,7 +646,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="15ab2b" />
+        <option name="FOREGROUND" value="b259" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -1184,11 +1175,6 @@
     <option name="JSON.KEYWORD">
       <value />
     </option>
-    <option name="JSON.PROPERTY_KEY">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-      </value>
-    </option>
     <option name="JSP_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="839496" />
@@ -1332,12 +1318,6 @@
     <option name="LESS_ID_SELECTOR">
       <value>
         <option name="FOREGROUND" value="2d9cdb" />
-      </value>
-    </option>
-    <option name="LESS_INJECTED_CODE">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-        <option name="BACKGROUND" value="eee8d5" />
       </value>
     </option>
     <option name="LESS_JS_CODE_DELIM">
@@ -1671,6 +1651,16 @@
     <option name="MARKDOWN.VERBATIM">
       <value>
         <option name="BACKGROUND" value="eee8d5" />
+      </value>
+    </option>
+    <option name="MARKDOWN_BOLD_MARKER">
+      <value>
+        <option name="FOREGROUND" value="2d9cdb" />
+      </value>
+    </option>
+    <option name="MARKDOWN_LINK_TITLE">
+      <value>
+        <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.AUTO_LINK">
