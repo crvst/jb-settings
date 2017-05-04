@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-05-04T00:53:59</property>
+    <property name="modified">2017-05-04T11:47:41</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -788,8 +788,8 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="f6eae7" />
-        <option name="ERROR_STRIPE_COLOR" value="f6eae7" />
+        <option name="EFFECT_COLOR" value="f3c2c2" />
+        <option name="ERROR_STRIPE_COLOR" value="f3c2c2" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -825,7 +825,7 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="f6eae7" />
+        <option name="EFFECT_COLOR" value="f3c2c2" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -14951,8 +14951,8 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="feeec2" />
-        <option name="ERROR_STRIPE_COLOR" value="feeec2" />
+        <option name="EFFECT_COLOR" value="fae2aa" />
+        <option name="ERROR_STRIPE_COLOR" value="fae2aa" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
