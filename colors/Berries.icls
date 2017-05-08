@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-05-07T13:23:04</property>
+    <property name="modified">2017-05-08T13:56:29</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -39,7 +39,7 @@
     <option name="SELECTION_BACKGROUND" value="c3e8f3" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="93a1a1" />
-    <option name="WHITESPACES" value="ffffff" />
+    <option name="WHITESPACES" value="dddddd" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="f8edd6" />
   </colors>
   <attributes>
@@ -1208,7 +1208,14 @@
     <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JSON.KEYWORD">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="1f6fec" />
+      </value>
+    </option>
+    <option name="JSON.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="b58900" />
+      </value>
     </option>
     <option name="JSP_ATTRIBUTE_NAME">
       <value>
