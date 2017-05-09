@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-05-09T21:10:34</property>
+    <property name="modified">2017-05-09T21:18:51</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -439,12 +439,17 @@
     </option>
     <option name="Clojure Atom">
       <value>
-        <option name="FOREGROUND" value="2688cf" />
+        <option name="FOREGROUND" value="1a1a1a" />
       </value>
     </option>
     <option name="Clojure Line comment">
       <value>
         <option name="FOREGROUND" value="b58900" />
+      </value>
+    </option>
+    <option name="Clojure Literal">
+      <value>
+        <option name="FOREGROUND" value="1f6fec" />
       </value>
     </option>
     <option name="Clojure Numbers">

@@ -15,7 +15,7 @@
       <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
       <mapping pattern="browserslist" type="PLAIN_TEXT" />
       <mapping pattern=".nrepl-history" type="PLAIN_TEXT" />
-      <removed_mapping pattern=".stylintrc" type="Stylint" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
