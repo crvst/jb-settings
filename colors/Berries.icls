@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-05-11T16:46:11</property>
+    <property name="modified">2017-05-15T19:57:20</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -14,8 +14,16 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
+    <option name="EDITOR_FONT_SIZE" value="15" />
   </font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="SF Mono" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </console-font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </console-font>
   <option name="CONSOLE_LINE_SPACING" value="1.5" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="ecf4e0" />
@@ -170,6 +178,11 @@
       <value>
         <option name="FOREGROUND" value="93a1a1" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -347,6 +360,11 @@
         <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
+    <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+      </value>
+    </option>
     <option name="CSS.HASH">
       <value>
         <option name="FOREGROUND" value="2d9cdb" />
@@ -449,6 +467,11 @@
         <option name="FOREGROUND" value="1a1a1a" />
       </value>
     </option>
+    <option name="Clojure Keyword">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+      </value>
+    </option>
     <option name="Clojure Line comment">
       <value>
         <option name="FOREGROUND" value="b58900" />
@@ -457,6 +480,11 @@
     <option name="Clojure Literal">
       <value>
         <option name="FOREGROUND" value="1f6fec" />
+      </value>
+    </option>
+    <option name="Clojure Numbers">
+      <value>
+        <option name="FOREGROUND" value="f2994a" />
       </value>
     </option>
     <option name="Clojure Parentheses">
@@ -758,6 +786,11 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="ECMAL4.INTERFACE">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+      </value>
+    </option>
     <option name="EL.BOUNDS">
       <value>
         <option name="FOREGROUND" value="cb4b16" />
@@ -993,6 +1026,11 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="Head symbol from clojure.core">
+      <value>
+        <option name="FOREGROUND" value="1f6fec" />
+      </value>
+    </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="e7e7fa" />
@@ -1093,6 +1131,11 @@
     <option name="JAVA_NUMBER">
       <value>
         <option name="FOREGROUND" value="cb4b16" />
+      </value>
+    </option>
+    <option name="JAVA_PARENTH">
+      <value>
+        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
     <option name="JAVA_STRING">

@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+<keymap version="1" name="Mac OS X 10.5+ copy 0" parent="Mac OS X 10.5+">
   <action id=":cursive.actions.paredit/backward">
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
@@ -89,41 +89,11 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="EditorChooseLookupItemReplace" />
-  <action id="EditorIndentSelection" />
   <action id="EditorTab" />
   <action id="EmacsStyleIndent">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
-  <action id="ExpandLiveTemplateByTab" />
-  <action id="Forward">
-    <keyboard-shortcut first-keystroke="meta alt right" />
-    <mouse-shortcut keystroke="button5" />
-  </action>
-  <action id="NextParameter" />
-  <action id="NextTemplateParameter" />
-  <action id="NextTemplateVariable">
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
   <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl back_slash" />
-  </action>
-  <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
-  </action>
-  <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
-  </action>
-  <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-  </action>
-  <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
-  </action>
-  <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
-  </action>
-  <action id="TogglePowerSave">
-    <keyboard-shortcut first-keystroke="ctrl meta p" />
+    <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
 </keymap>
