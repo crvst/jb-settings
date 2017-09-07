@@ -4,12 +4,21 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-09-07T15:56:51</property>
+    <property name="modified">2017-09-08T00:14:02</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
-  <console-font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Iosevka" />
+    <option name="EDITOR_FONT_SIZE" value="15" />
+  </font>
+  <font>
     <option name="EDITOR_FONT_NAME" value="SF Mono" />
+    <option name="EDITOR_FONT_SIZE" value="15" />
+  </font>
+  <option name="EDITOR_LIGATURES" value="true" />
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Iosevka" />
     <option name="EDITOR_FONT_SIZE" value="14" />
   </console-font>
   <console-font>
@@ -362,11 +371,6 @@
         <option name="FOREGROUND" value="2d9cdb" />
       </value>
     </option>
-    <option name="CSS.IMPORTANT">
-      <value>
-        <option name="FOREGROUND" value="dc322f" />
-      </value>
-    </option>
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="BACKGROUND" value="e9f1f7" />
@@ -419,47 +423,14 @@
         <option name="FOREGROUND" value="859900" />
       </value>
     </option>
-    <option name="C_BRACES">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
-    <option name="C_BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
+    <option name="C_DYNAMIC" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="C_FN_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="C_FORM_COMMENT">
       <value>
         <option name="FOREGROUND" value="b58900" />
       </value>
     </option>
-    <option name="C_LET_BINDING">
-      <value>
-        <option name="FOREGROUND" value="660e7a" />
-      </value>
-    </option>
-    <option name="C_LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="C_NAMESPACE">
-      <value>
-        <option name="FOREGROUND" value="2b36" />
-      </value>
-    </option>
-    <option name="C_PARENS">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
-    <option name="C_UNQUOTE">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
+    <option name="C_LET_BINDING" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="Clojure Atom">
       <value>
         <option name="FOREGROUND" value="1a1a1a" />
@@ -858,7 +829,7 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1719,9 +1690,48 @@
         <option name="BACKGROUND" value="eee8d5" />
       </value>
     </option>
+    <option name="MARKDOWN_BLOCK_QUOTE">
+      <value />
+    </option>
     <option name="MARKDOWN_BOLD_MARKER">
       <value>
         <option name="FOREGROUND" value="2d9cdb" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_1">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_2">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_3">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_4">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_5">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_6">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_LINK_TITLE">
