@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-09-06T23:37:00</property>
+    <property name="modified">2017-09-07T15:56:51</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -429,9 +429,15 @@
         <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
+    <option name="C_FN_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="C_FORM_COMMENT">
       <value>
         <option name="FOREGROUND" value="b58900" />
+      </value>
+    </option>
+    <option name="C_LET_BINDING">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
       </value>
     </option>
     <option name="C_LINE_COMMENT">
@@ -623,7 +629,8 @@
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="d33682" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="d33682" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -668,6 +675,11 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="93a1a1" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="9c00c7" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
