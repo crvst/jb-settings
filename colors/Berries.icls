@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-09-11T16:47:15</property>
+    <property name="modified">2017-10-02T12:58:32</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -33,7 +33,7 @@
     <option name="CARET_COLOR" value="29beea" />
     <option name="CARET_ROW_COLOR" value="f0f0f0" />
     <option name="CONSOLE_BACKGROUND_KEY" value="f7f7f7" />
-    <option name="DELETED_LINES_COLOR" value="eeeeee" />
+    <option name="DELETED_LINES_COLOR" value="dbdbdb" />
     <option name="GUTTER_BACKGROUND" value="f7f7f7" />
     <option name="INDENT_GUIDE" value="eee8d5" />
     <option name="LINE_NUMBERS_COLOR" value="d8d8da" />
