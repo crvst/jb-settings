@@ -1,6 +1,5 @@
 <code_scheme name="Airbnb">
   <option name="RIGHT_MARGIN" value="80" />
-  <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   <ClojureCodeStyleSettings>
     <option name="USE_2SEMI_COMMENT" value="true" />
