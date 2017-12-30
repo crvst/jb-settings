@@ -5,6 +5,7 @@
       <mapping ext="boot" type="Clojure" />
       <mapping pattern=".htmlhintrc" type="JSON" />
       <mapping pattern=".surgeignore" type="PLAIN_TEXT" />
+      <mapping pattern="minify-html" type="PLAIN_TEXT" />
       <mapping pattern=".__blocks" type="PLAIN_TEXT" />
       <mapping pattern="CNAME" type="PLAIN_TEXT" />
       <mapping pattern=".bash_profile" type="PLAIN_TEXT" />
