@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping ext="boot" type="Clojure" />
       <mapping pattern=".htmlhintrc" type="JSON" />
+      <mapping ext="conf" type="JSON" />
       <mapping pattern="CNAME" type="PLAIN_TEXT" />
       <mapping pattern="_new-controls-mobile.jade" type="PLAIN_TEXT" />
       <mapping pattern="browserslist" type="PLAIN_TEXT" />
