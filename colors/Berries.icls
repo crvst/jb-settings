@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-02-22T02:19:46</property>
+    <property name="modified">2018-02-22T03:00:09</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -637,7 +637,11 @@
         <option name="FOREGROUND" value="2b36" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="f2994a" />
@@ -678,7 +682,6 @@
     <option name="DEFAULT_TAG">
       <value>
         <option name="FOREGROUND" value="38474b" />
-        <option name="BACKGROUND" value="f7f7f7" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
@@ -992,6 +995,16 @@
     <option name="HAML_XHTML">
       <value>
         <option name="FOREGROUND" value="83ba0d" />
+      </value>
+    </option>
+    <option name="HTML_CODE">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+      </value>
+    </option>
+    <option name="HTML_TAG">
+      <value>
+        <option name="FOREGROUND" value="38474b" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -14226,6 +14239,11 @@
       <value>
         <option name="FOREGROUND" value="268bd2" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="REASONML_OPTION">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
       </value>
     </option>
     <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
