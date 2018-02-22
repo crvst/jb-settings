@@ -4,12 +4,12 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-02-22T02:18:36</property>
+    <property name="modified">2018-02-22T02:19:46</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="Pragmata Pro" />
+    <option name="EDITOR_FONT_NAME" value="Iosevka" />
     <option name="EDITOR_FONT_SIZE" value="15" />
   </font>
   <font>
