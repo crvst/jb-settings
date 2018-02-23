@@ -7,6 +7,7 @@
       <mapping ext="conf" type="JSON" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="CNAME" type="PLAIN_TEXT" />
+      <mapping pattern=".__blocks" type="PLAIN_TEXT" />
       <mapping pattern="_new-controls-mobile.jade" type="PLAIN_TEXT" />
       <mapping pattern="browserslist" type="PLAIN_TEXT" />
       <mapping pattern=".jestrc" type="PLAIN_TEXT" />
@@ -15,12 +16,12 @@
       <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
       <mapping pattern="minify-html" type="PLAIN_TEXT" />
       <mapping pattern=".surgeignore" type="PLAIN_TEXT" />
-      <mapping pattern=".__blocks" type="PLAIN_TEXT" />
       <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
       <mapping pattern=".bash_profile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping pattern="Add" type="TypeScript JSX" />
     </extensionMap>
   </component>
 </application>
