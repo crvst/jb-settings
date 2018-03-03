@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-02-22T03:00:09</property>
+    <property name="modified">2018-03-02T23:12:31</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -644,7 +644,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="f2994a" />
+        <option name="FOREGROUND" value="f0740e" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -690,6 +690,7 @@
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="93a1a1" />
         <option name="EFFECT_COLOR" value="93a1a1" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -801,6 +802,7 @@
         <option name="FOREGROUND" value="333333" />
       </value>
     </option>
+    <option name="ELM_TYPE" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="ELM_TYPE_ANNOTATION_NAME">
       <value>
         <option name="FOREGROUND" value="333333" />
@@ -1024,6 +1026,22 @@
         <option name="BACKGROUND" value="e7e7fa" />
         <option name="ERROR_STRIPE_COLOR" value="e7e7fa" />
       </value>
+    </option>
+    <option name="IGNORE.HEADER">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="IGNORE.NEGATION">
+      <value />
+    </option>
+    <option name="IGNORE.SECTION">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="IGNORE.VALUE">
+      <value />
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value />
@@ -14923,6 +14941,7 @@
       <value>
         <option name="FOREGROUND" value="b58900" />
         <option name="ERROR_STRIPE_COLOR" value="b58900" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="TWIG_BAD_CHARACTER">
