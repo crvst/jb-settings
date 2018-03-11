@@ -62,11 +62,6 @@
   <action id=":cursive.actions.paredit/wrap-curly">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
-  <action id=":cursive.actions.paredit/wrap-paren">
-    <keyboard-shortcut first-keystroke="shift meta 9" />
-    <keyboard-shortcut first-keystroke="shift left_parenthesis" />
-    <keyboard-shortcut first-keystroke="shift right_parenthesis" />
-  </action>
   <action id=":cursive.actions.paredit/wrap-quotes">
     <keyboard-shortcut first-keystroke="shift meta quote" />
   </action>
