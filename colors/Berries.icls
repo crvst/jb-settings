@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-03-12T18:36:02</property>
+    <property name="modified">2018-03-12T23:04:11</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -100,6 +100,7 @@
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="dc322f" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="f2b5a7" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -269,15 +270,20 @@
         <option name="FOREGROUND" value="839496" />
       </value>
     </option>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="1a1a1a" />
+      </value>
+    </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="268bd2" />
+        <option name="FOREGROUND" value="1f6fec" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="268bd2" />
+        <option name="FOREGROUND" value="1f6fec" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
@@ -308,13 +314,13 @@
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" value="4bbd00" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" value="4bbd00" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
@@ -333,7 +339,7 @@
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="eb3434" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -348,6 +354,7 @@
     <option name="CONSOLE_USER_INPUT">
       <value>
         <option name="FOREGROUND" value="859900" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
@@ -612,6 +619,7 @@
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="eb3434" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="f2b5a7" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -621,11 +629,7 @@
         <option name="FOREGROUND" value="1f6fec" />
       </value>
     </option>
-    <option name="DEFAULT_LABEL">
-      <value>
-        <option name="FOREGROUND" value="1e26" />
-      </value>
-    </option>
+    <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="bd8e00" />
@@ -661,12 +665,7 @@
         <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
-    <option name="DEFAULT_PREDEFINED_SYMBOL">
-      <value>
-        <option name="FOREGROUND" value="1a1a1a" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_SEMICOLON">
       <value>
         <option name="FOREGROUND" value="93a1a1" />
@@ -686,7 +685,11 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="6cd800" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
@@ -828,6 +831,7 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="f3c2c2" />
         <option name="ERROR_STRIPE_COLOR" value="f3c2c2" />
         <option name="EFFECT_TYPE" value="2" />
@@ -866,6 +870,7 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="f3c2c2" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -916,6 +921,12 @@
     <option name="GHERKIN_TAG">
       <value>
         <option name="FOREGROUND" value="d33682" />
+      </value>
+    </option>
+    <option name="GO_STRUCT_EXPORTED_MEMBER">
+      <value>
+        <option name="FOREGROUND" value="d33682" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="GQL_INT_LITERAL">
@@ -1064,6 +1075,7 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="f9f7f2" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -14882,6 +14894,7 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b58900" />
+        <option name="FONT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" value="b58900" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -14980,6 +14993,9 @@
       <value>
         <option name="FOREGROUND" value="dc322f" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="f3c2c2" />
+        <option name="ERROR_STRIPE_COLOR" value="f3c2c2" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="Unresolved reference access">
@@ -15007,6 +15023,7 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="fae2aa" />
         <option name="ERROR_STRIPE_COLOR" value="fae2aa" />
         <option name="EFFECT_TYPE" value="2" />
@@ -15028,6 +15045,7 @@
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="eb3434" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="f3c2c2" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -15171,5 +15189,12 @@
       </value>
     </option>
     <option name="org.rust.MACRO" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.MUT_BINDING">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.TYPE_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
   </attributes>
 </scheme>
