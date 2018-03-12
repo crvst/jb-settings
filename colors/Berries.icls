@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-03-12T12:57:03</property>
+    <property name="modified">2018-03-12T13:34:21</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -110,6 +110,8 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="BASH.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="BASH.HERE_DOC_START">
       <value>
         <option name="FOREGROUND" value="2aa198" />
@@ -118,6 +120,11 @@
     <option name="BASH.PAREN">
       <value>
         <option name="FOREGROUND" value="859900" />
+      </value>
+    </option>
+    <option name="BASH.REDIRECTION">
+      <value>
+        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
     <option name="BASH.SHEBANG">
@@ -291,7 +298,7 @@
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="eb3434" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -332,7 +339,7 @@
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="eb3434" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -364,11 +371,6 @@
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="1a1a1a" />
-      </value>
-    </option>
-    <option name="CSS.HASH">
-      <value>
-        <option name="FOREGROUND" value="2d9cdb" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -609,7 +611,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="eb5757" />
+        <option name="FOREGROUND" value="eb3434" />
         <option name="EFFECT_COLOR" value="f2b5a7" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -631,7 +633,7 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="cf1fcf" />
+        <option name="FOREGROUND" value="a23da2" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -641,7 +643,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="f0740e" />
+        <option name="FOREGROUND" value="e07f00" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -651,7 +653,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="cf1fcf" />
+        <option name="FOREGROUND" value="a23da2" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -795,17 +797,25 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="ELM_ARROW" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="ELM_BRACES" baseAttributes="DEFAULT_BRACES" />
+    <option name="ELM_BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
+    <option name="ELM_COMMA" baseAttributes="DEFAULT_COMMA" />
     <option name="ELM_DEFINITION_NAME">
       <value>
         <option name="FOREGROUND" value="333333" />
       </value>
     </option>
+    <option name="ELM_EQ" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="ELM_PARENTHESIS" baseAttributes="DEFAULT_PARENTHS" />
+    <option name="ELM_PIPE" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="ELM_TYPE" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="ELM_TYPE_ANNOTATION_NAME">
       <value>
         <option name="FOREGROUND" value="333333" />
       </value>
     </option>
+    <option name="ELM_TYPE_ANNOTATION_SIGNATURE_TYPES" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="EL_BACKGROUND">
       <value>
         <option name="BACKGROUND" value="eee8d5" />
@@ -1093,20 +1103,10 @@
         <option name="FOREGROUND" value="268bd2" />
       </value>
     </option>
+    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="JADE_STATEMENTS">
       <value>
         <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="JAVA_BLOCK_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="JAVA_DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="dc322f" />
       </value>
     </option>
     <option name="JAVA_DOC_TAG">
@@ -1124,12 +1124,6 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="JAVA_LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JAVA_NUMBER">
@@ -14599,27 +14593,9 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="SQL_COLUMN">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="SQL_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="SQL_DATABASE_OBJECT">
       <value>
         <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="SQL_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="b58900" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="SQL_LABEL">
@@ -14627,41 +14603,9 @@
         <option name="FOREGROUND" value="d33682" />
       </value>
     </option>
-    <option name="SQL_LOCAL_ALIAS">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-      </value>
-    </option>
     <option name="SQL_NUMBER">
       <value>
         <option name="FOREGROUND" value="dc322f" />
-      </value>
-    </option>
-    <option name="SQL_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="cb4b16" />
-      </value>
-    </option>
-    <option name="SQL_PROCEDURE">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="SQL_SCHEMA">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
-    <option name="SQL_STRING">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="SQL_TABLE">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
       </value>
     </option>
     <option name="SQL_VARIABLE">
@@ -15083,7 +15027,9 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="eb5757" />
+        <option name="FOREGROUND" value="eb3434" />
+        <option name="EFFECT_COLOR" value="f3c2c2" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="Wrong number">
@@ -15137,32 +15083,9 @@
         <option name="FOREGROUND" value="6c71c4" />
       </value>
     </option>
-    <option name="YAML_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_DSTRING">
-      <value>
-        <option name="FOREGROUND" value="859900" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_KEY">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="YAML_SCALAR_LIST">
       <value>
         <option name="BACKGROUND" value="eee8d5" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_STRING">
-      <value>
-        <option name="FOREGROUND" value="2aa198" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="bemhtml.bem.error">
@@ -15207,6 +15130,8 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="com.plan9.INSTRUCTION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="go.block.comment">
       <value>
         <option name="FOREGROUND" value="93a1a1" />
@@ -15245,5 +15170,6 @@
         <option name="FOREGROUND" value="808080" />
       </value>
     </option>
+    <option name="org.rust.MACRO" baseAttributes="DEFAULT_IDENTIFIER" />
   </attributes>
 </scheme>
