@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-03-12T13:34:21</property>
+    <property name="modified">2018-03-12T15:11:57</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -555,7 +555,7 @@
     <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b58900" />
+        <option name="FOREGROUND" value="bd8e00" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -576,7 +576,7 @@
     <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b58900" />
+        <option name="FOREGROUND" value="bd8e00" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -628,7 +628,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="b58900" />
+        <option name="FOREGROUND" value="bd8e00" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -676,7 +676,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="b235" />
+        <option name="FOREGROUND" value="4bbd00" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
