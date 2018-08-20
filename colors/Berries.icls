@@ -4,7 +4,7 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-08-06T14:29:55</property>
+    <property name="modified">2018-08-20T18:05:49</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -16,7 +16,6 @@
     <option name="EDITOR_FONT_NAME" value="SF Mono" />
     <option name="EDITOR_FONT_SIZE" value="15" />
   </font>
-  <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Iosevka" />
     <option name="EDITOR_FONT_SIZE" value="14" />
