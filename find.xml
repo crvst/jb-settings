@@ -14,8 +14,8 @@
     <mask>*.css</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
-    <mask>*.jsx</mask>
     <mask>*.scss</mask>
     <mask>*.less</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
