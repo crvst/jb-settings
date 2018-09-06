@@ -4,6 +4,7 @@
       <mapping ext="overrides" type="Less" />
       <mapping ext="config" type="Less" />
       <mapping ext="variables" type="Less" />
+      <mapping pattern="DUMMY" type="PLAIN_TEXT" />
       <mapping pattern="_redirects" type="PLAIN_TEXT" />
       <mapping pattern=".DUMMY" type="PLAIN_TEXT" />
     </extensionMap>
