@@ -28,8 +28,8 @@
     <option name="JSX_ATTRIBUTE_VALUE" value="None" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
     <option name="BLANK_LINES_AROUND_FUNCTION" value="0" />
-    <option name="IMPORT_SORT_MEMBERS" value="false" />
-    <option name="IMPORT_MERGE_MEMBERS" value="FALSE" />
+    <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+    <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="TRUE" />
   </JSCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="INDENT_CODE_IN_PHP_TAGS" value="true" />
