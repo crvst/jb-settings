@@ -112,4 +112,7 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
+  <action id="StringManipulation.Sort">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
 </keymap>
