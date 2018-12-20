@@ -115,4 +115,7 @@
   <action id="StringManipulation.Sort">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="SurroundWithEmmet">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
 </keymap>
