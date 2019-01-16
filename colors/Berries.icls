@@ -4,10 +4,10 @@
     <property name="created">2017-05-02T23:25:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-12-21T11:46:45</property>
+    <property name="modified">2019-01-16T21:02:40</property>
     <property name="originalScheme">Nihil Theme</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.4" />
+  <option name="LINE_SPACING" value="1.5" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Iosevka" />
     <option name="EDITOR_FONT_SIZE" value="15" />
@@ -24,7 +24,6 @@
     <option name="EDITOR_FONT_NAME" value="Menlo" />
     <option name="EDITOR_FONT_SIZE" value="14" />
   </console-font>
-  <option name="CONSOLE_LINE_SPACING" value="1.5" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="ecf4e0" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
