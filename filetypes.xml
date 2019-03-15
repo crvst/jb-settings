@@ -1,8 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping pattern=".editorconfig" type="EditorConfig" />
-      <mapping pattern=".editorconfig" type="GraphQL Endpoint Doc" />
       <mapping pattern="PricesInput" type="JSX Harmony" />
       <mapping ext="overrides" type="Less" />
       <mapping ext="config" type="Less" />
