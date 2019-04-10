@@ -105,6 +105,10 @@
     <keyboard-shortcut first-keystroke="tab" />
   </action>
   <action id="FileChooser.GotoProject" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="shift alt a" />
+  </action>
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta alt semicolon" />
   </action>
