@@ -8,12 +8,12 @@
       <mapping ext="config" type="Less" />
       <mapping ext="variables" type="Less" />
       <mapping pattern="DUMMY" type="PLAIN_TEXT" />
-      <mapping pattern="fn-cp@" type="PLAIN_TEXT" />
       <mapping pattern="xxx" type="PLAIN_TEXT" />
-      <mapping pattern=".DUMMY" type="PLAIN_TEXT" />
-      <mapping pattern="232" type="PLAIN_TEXT" />
+      <mapping pattern="fn-cp@" type="PLAIN_TEXT" />
       <mapping pattern="_redirects" type="PLAIN_TEXT" />
+      <mapping pattern=".DUMMY" type="PLAIN_TEXT" />
       <mapping pattern="npm" type="PLAIN_TEXT" />
+      <mapping pattern="232" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
