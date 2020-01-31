@@ -3,8 +3,8 @@
     <extensionMap>
       <mapping pattern="PricesInput" type="JSX Harmony" />
       <mapping ext="overrides" type="Less" />
-      <mapping ext="config" type="Less" />
       <mapping ext="variables" type="Less" />
+      <mapping ext="config" type="Less" />
       <mapping pattern="npm" type="PLAIN_TEXT" />
       <mapping pattern="DUMMY" type="PLAIN_TEXT" />
       <mapping pattern=".DUMMY" type="PLAIN_TEXT" />
