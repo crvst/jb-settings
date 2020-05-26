@@ -2,4 +2,7 @@
   <action id="Javascript.Linters.StandardJS.Fix">
     <keyboard-shortcut first-keystroke="meta alt semicolon" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
 </keymap>
