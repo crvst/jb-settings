@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
+      <removed_mapping ext="svelte" approved="true" type="AUTO_DETECTED" />
     </extensionMap>
   </component>
 </application>
